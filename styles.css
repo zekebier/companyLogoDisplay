@@ -1,0 +1,145 @@
+/* ========================================================= START Company Logos ================================================================ */
+.companyLogoText{
+    font-size: 58px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 100;
+    padding-top: 40px;
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #E91E63), color-stop(0.6, #00BCD4), color-stop(1, #3F51B5) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.companyLogoRowTopDesktop{
+    padding-top: 40px;
+    max-width: 1600px;
+}
+.companyLogoRowTopTablet{
+    padding-top: 30px;
+}
+
+.companyLogosDesktopImages{
+     padding: 0px 30px;
+     display: table-cell;
+}
+
+.companyLogosTabletImages{
+     padding: 0px 10px;
+     display: table-cell;
+}
+
+.companyLogoRowBottomDesktop{
+    padding-bottom: 90px;
+    padding-top: 40px;
+    max-width: 1600px;
+}
+
+.companyLogoRowBottomTablet{
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+
+@media (min-width: 1400px) {
+    .companyLogoText{
+        font-size: 70px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .companyLogoText{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1090px) {
+    .companyLogoText{
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 840px) {
+    .companyLogoText{
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 720px) {
+    .companyLogoText{
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 650px) {
+    .companyLogoText{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    .companyLogoText{
+        font-size: 18px;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 360px) {
+    .companyLogoText{
+        font-size: 15px;
+    }
+}
+
+/* ========================================================= END Company Logos ================================================================= */
+
+/* ========================================================= START Google Material Design ================================================================= */
+
+.mdl-grid {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 0 auto 0 auto;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+          }
+@media (min-width: 840px) {
+  .mdl-grid {
+    padding: 8px;
+    }
+    .mdl-cell--hide-desktop {
+    display: none !important;
+    }
+    .mdl-cell--3-col {
+    width: calc(25% - 16px);
+    }
+}
+@media (min-width: 480px) and (max-width: 839px) {
+    .mdl-grid {
+      padding: 8px;
+    }
+    .mdl-cell--hide-tablet {
+      display: none !important;
+    }
+    .mdl-cell--3-col {
+    width: calc(37.5% - 16px);
+    }
+}
+@media (max-width: 479px) {
+  .mdl-grid {
+    padding: 8px;
+    }
+    .mdl-cell--hide-phone {
+    display: none !important;
+    }
+    .mdl-cell--3-col {
+      width: calc(75% - 16px);
+    }
+}     
+
+/* ========================================================= END Google Material Design ================================================================= */
+
+/* FIN
